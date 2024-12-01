@@ -2,10 +2,23 @@
 
 In order to start the game, run the following commands:
 
+-Install the ascii game library
+```
+pip install pyplayscii --user
 
-`pip install pyplayscii --user`
-`pip install art`
-`python fly.py`
+```
+
+-Install other libraries
+```
+pip install art
+
+```
+
+-Run the main python file
+```
+python fly.py
+
+```
 
 
 
