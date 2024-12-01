@@ -3,11 +3,6 @@ from playscii.input import Input
 import random
 from art import text2art
 
-SPACESHIP = "        //-A-\\         \n" \
-            "  ___---=======---___ \n" \
-            "(=__\   /.. ..\   /__=) \n" \
-            "     ---\__O__/---"
-
 FLY = "      ____\n" \
       "     ;----""(#)\n" \
       "      '--|-|'|'\n" \
@@ -33,7 +28,6 @@ FLY_DOWN = "        \n" \
            '    (@I@)    \n'
 
 FOOD = "*"
-BIGFOOD = "<<<$>>>"
 
 GAMEOVER = text2art('''Game Over''',font="small",chr_ignore=True)
 N = 100
